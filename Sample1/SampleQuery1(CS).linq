@@ -16,5 +16,6 @@ for (int i = 0; i < 26; i++)
 	AppendTextString += Alphabet.Substring(i, 1);
 }
 
+//adding a comment line here for demo purposes
 string.Format(@"The value of forward string is: {0}", AppendTextString).Dump();
 string.Format(@"The value of backward string is: {0}", AppendTextStringBack).Dump();
